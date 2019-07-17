@@ -1,0 +1,26 @@
+# Test framework: "xcuitest" or "espresso"
+testFramework: xcuitest
+ 
+# Path to the app's .ipa or .app.
+app: ../apps/DummyTestingApp.ipa
+ 
+# Path to the test runner app's .ipa or .app.
+test: ../apps/DummyTestingApp-Runner.ipa
+ 
+# Path where XML test reports will be saved.
+xmlFolder: ./
+ 
+# Define a list of devices on which the tests should be executed.
+devices:
+ 
+- datacenter: EU
+ 
+  device: iPhone_SE_16GB_POC28
+ 
+- datacenter: EU
+ 
+  device: iPhone_SE_11_3_POC04
+
+- datacenter: EU
+ 
+  device: iPhone_SE_11_3_POC24
